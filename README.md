@@ -1,5 +1,6 @@
-# hello-world
-Simple example of Github use
-hello some funny codes for use by the fellow programming 
+import pandas as pd
+myData=pd.read_csv("F:\\Learning Resources Jan 2020\\liveProject\\Manning-Phishing-Websites-Detection-master\\Phishing.csv", header='infer')
+myData.head(10)
+myData.describe()
+myData.columns
 
-kkk... and the sons and daughters of the people 
