@@ -30,3 +30,4 @@ filepath = "https://raw.githubusercontent.com/sayakpaul/Manning-Phishing-Website
 
 # Loading the .csv into a DataFrame
 myData = pd.read_csv(filepath)
+myData
